@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>  
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Empresa Construcciones</title>
+  <title>Empresa Construcciones - Inicio</title>
   
-  <!-- Sales de Html (..) e ingresas a css/styles.css -->
-  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
 
   <!-- Header / Nav -->
   <header class="header">
     <div class="container nav-container">
-      <a href="#" class="logo">
+      <a href="index.html" class="logo">
         Empresa<span>Construcciones</span>
       </a>
 
+      <!-- Botón hamburguesa mobile -->
       <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
         <span></span>
         <span></span>
         <span></span>
       </button>
 
-    <nav class="nav-menu" id="navMenu">
-      <ul class="nav-list">
-        <li><a href="index.html" class="nav-link">Inicio</a></li>
-        <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
-        <li><a href="servicios.html" class="nav-link">Servicios</a></li>
-        <li><a href="proyectos.html" class="nav-link">Obras</a></li>
-        <li><a href="contacto.html" class="nav-link btn-contact">Contacto</a></li>
-      </ul>
-    </nav>
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Inicio</a></li>
+          <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+          <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+          <li><a href="obras.html" class="nav-link">Obras</a></li>
+          <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <!-- Sales de Html (..) e ingresas a Js/script.js -->
+  <!-- Contenido Principal -->
+  <main class="container">
+    <section class="hero">
+      <h1>Construimos el futuro de tu proyecto</h1>
+      <p>Calidad, diseño y compromiso en cada obra realizada.</p>
+    </section>
+  </main>
+
+  <!-- JavaScript -->
   <script src="../Js/script.js"></script>
 </body>
 </html>
